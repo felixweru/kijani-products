@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kijani Products</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fdf6e3;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #DAA520;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            font-size: 24px;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        footer{
+        background-color: #DAA520;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+        font-size: 24px;
+        }
+        .product {
+            display: flex;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: white;
+        }
+        .product img {
+            width: 150px;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+        .product-content {
+            flex: 1;
+        }
+        .product-title {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #DAA520;
+        }
+        .product-description {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        img {
+             max-width: 100%;
+             height: auto;
+        }
+    </style>
+</head>
+<body>
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Kijani Products</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        Kijani Honey Products
+    </header>
+    <div class="container">
+        <div class="product">
+            <img src="images/image_1_1.jpeg" alt="Kijani Premium Honey">
+            <div class="product-content">
+                <div class="product-title">Kijani Premium Honey</div>
+                <div class="product-description">
+                    This is honey harvested at the peak of the hills in Asilong West Pokot County. The bees mainly collect nectar from medicinal herbs like Panyrath and Kiptarat in Pokot dialect. The quality of this honey can only be compared to Manuka honey from the hills of Nepal.
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <img src="images/highland.jpg" alt="Kijani Keepers Honey" style="height:50%;">
+            <div class="product-content">
+                <div class="product-title">Kijani Keepers Honey</div>
+                <div class="product-description">
+                    This is a category of honey meant to uplift the small scale apiarists in our country. It is collected from different apiculture farmers, tested, then blended together. It is characteristically dark in color and very sweet. It is loved by many households.
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <img src="images/keepers.jpg" alt="Kijani Select Honey">
+            <div class="product-content">
+                <div class="product-title">Kijani Select Honey</div>
+                <div class="product-description">
+                    This honey is harvested from a specific region. It could be Baringo, West Pokot, Nyeri, Tharaka Nithi, Kajiado, etc. It is not mixed at all but rather packed specifically. It is normally amber in color and the level of sweetness depends on the area harvested.
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <img src="images/image_1_4.jpeg" alt="Kijani Highland Honey">
+            <div class="product-content">
+                <div class="product-title">Kijani Highland Honey</div>
+                <div class="product-description">
+                    This is honey harvested in highly forested areas of the Congo and Uganda border. It is characteristically dark in color and not as sweet as Acacia honey. It is regarded as highly medicinal.
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <img src="images/image_1_5.jpeg" alt="Kijani Lemon Ginger Honey">
+            <div class="product-content">
+                <div class="product-title">Kijani Lemon Ginger Honey</div>
+                <div class="product-description">
+                    This is Acacia honey blended with natural Ginger and Lemon using specific quantitative measurements to bring out a unique fine taste. This type of honey helps manage colds and is also used as a sweetener in alcoholic drinks like whisky. Enjoy in Dawa, tea, and smoothies.
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <img src="images/image_1_6.jpeg" alt="Kijani Ginger Honey">
+            <div class="product-content">
+                <div class="product-title">Kijani Ginger Honey</div>
+                <div class="product-description">
+                    This is Acacia honey blended with natural Ginger using specific quantitative measurements to bring out a fine taste. This type of honey helps manage colds and is suitable for individuals who are allergic to lemon.
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <img src="images/image_1_7.jpeg" alt="Kijani Cinnamon Honey">
+            <div class="product-content">
+                <div class="product-title">Kijani Cinnamon Honey</div>
+                <div class="product-description">
+                    This is Acacia honey blended with natural Cinnamon using specific quantitative measurements to bring out a peculiar taste. This type of honey helps improve digestion and manage stomach upsets.
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <img src="images/image_1_8.jpeg" alt="Kijani Acacia Honey">
+            <div class="product-content">
+                <div class="product-title">Kijani Acacia Honey</div>
+                <div class="product-description">
+                    This is honey harvested in arid and semi-arid areas. It is normally light amber in color and very sweet. It is loved by many people because it is applicable in many household activities as a sweetener.
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <img src="images/image_1_9.jpeg" alt="Kijani Mint Honey">
+            <div class="product-content">
+                <div class="product-title">Kijani Mint Honey</div>
+                <div class="product-description">
+                    This is Acacia honey specifically blended with mint flavor to bring out a perfect unique taste. It is good for mouth freshening just before beginning your day. It also helps manage colds and leaves one with a great refreshing feeling.
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h2>Visit Us Again</h2>
+        <p>&copy; 2024 Kijani Products Limited. All rights reserved.</p>
+    </footer>
+</body>
+</html>
